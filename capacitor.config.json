@@ -1,0 +1,20 @@
+{
+  "appId": "com.tendry.cashpoint",
+  "appName": "Cash Point Tendry",
+  "webDir": "www",
+  "backgroundColor": "#F6F3EA",
+  "android": {
+    "backgroundColor": "#F6F3EA"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#F6F3EA",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
+  }
+}

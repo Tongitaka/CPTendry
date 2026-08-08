@@ -1,0 +1,19 @@
+{
+  "name": "cash-point-tendry",
+  "version": "1.0.0",
+  "description": "Cash Point Tendry - Application de gestion de compte journalier",
+  "private": true,
+  "scripts": {
+    "sync": "cap sync android",
+    "assets": "capacitor-assets generate --android",
+    "open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.1.2"
+  }
+}
